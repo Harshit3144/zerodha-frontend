@@ -31,8 +31,8 @@ function Signup() {
                     </div>
 
                     <button className="btn btn-primary p-2.7 mt-4 fs-5" style={{ width: "50%" }}>Get OTP</button>
-                    <p style={{ fontSize: "14px" }} className="mt-3 text-muted">By proceeding, you agree to the Zerodha <a href="#">terms</a> & <a href="#">privacy policy</a></p>
-                    <p style={{ fontSize: "14px" }}>Looking to open NRI account? <a href="#">Click here</a></p>
+                    <p style={{ fontSize: "14px" }} className="mt-3 text-muted">By proceeding, you agree to the Zerodha <a href="https://zerodha.com/">terms</a> & <a href="https://zerodha.com/">privacy policy</a></p>
+                    <p style={{ fontSize: "14px" }}>Looking to open NRI account? <a href="https://zerodha.com/">Click here</a></p>
                 </div>
             </div>
 
