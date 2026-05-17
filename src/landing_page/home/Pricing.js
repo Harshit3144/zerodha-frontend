@@ -7,7 +7,7 @@ function Pricing() {
                 <div className="col-6 p-5" style={{width:"50%"}}>
                     <h3 className="mb-3">Unbeatable pricing</h3>
                     <p>We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges</p>
-                    <a href=""  style={{textDecoration:"none"}}>See pricing <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                    <a href="https://zerodha.com/charges/#tab-equities"  style={{textDecoration:"none"}}>See pricing <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                 </div>
                 <div className="col-6 p-5 ">
                     <div className="row ">

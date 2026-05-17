@@ -21,9 +21,9 @@ function Stats() {
                         <img src='media/ecosystem.png' alt='ecosystem' style={{width:"90%"}}/>
                         <div className="row p-5 mb-5 ">
                             <div className="text-center ">
-                                <a href="" className='mx-5' style={{textDecoration:"none"}}>Explore our products<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                                <a href="https://zerodha.com/products" className='mx-5' style={{textDecoration:"none"}}>Explore our products<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 
-                                <a href="" style={{textDecoration:"none" , marginLeft:"50px"}}>Try Kite demo<i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+                                <a href="https://kite-demo.zerodha.com/dashboard" style={{textDecoration:"none" , marginLeft:"50px"}}>Try Kite demo<i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
                             </div>
                         </div>
                     </div>

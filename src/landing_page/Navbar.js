@@ -29,11 +29,24 @@ function Navbar() {
                         </li>
                     </ul>
                 </div>
-                <Link class="navbar-brand" to="/"><i class="fa fa-bars" aria-hidden="true"></i></Link>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                
+                <div className="dropdown">
+                    <button
+                        className="btn btn-outline-secondary dropdown-toggle"
+                        type="button"
+                        id="dropdownMenuButton"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                    >
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+                        <li><a className="dropdown-item" href="https://kite.zerodha.com/">Kite</a></li>
+                        <li><a className="dropdown-item" href="https://console.zerodha.com/">Console</a></li>
+                        <li><a className="dropdown-item" href="https://zerodha.com/products/api/">Kite Connect</a></li>
+                        <li><a className="dropdown-item" href="https://coin.zerodha.com/">Coin</a></li>
+                    </ul>
+                </div>
+
             </div>
         </nav>
 

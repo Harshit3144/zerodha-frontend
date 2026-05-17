@@ -9,7 +9,7 @@ function Rightsection() {
                     <h3 className="mb-3 mt-5">Kite Connect API</h3>
                     <div className="mb-3">
                         <p className='mb-3'>Build powerful trading platforms and experiences with our super simple HTTP/JSON APIs. If you are a startup, build your investment app and showcase it to our clientbase.</p>
-                        <a href="" style={{ textDecoration: "none" }}>Kite Connect <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        <a href="javascript:void(0)" style={{ textDecoration: "none" }}>Kite Connect <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 
                     </div>
                 </div>

@@ -16,12 +16,23 @@ function Signup() {
                     <img src="media/signup.png" />
                 </div>
                 <div className="col-5 p-5">
-                    <h4>Signup now</h4>
+                    <h3>Signup now</h3>
                     <h5 className="text-muted">Or track your existing application</h5>
-                    <h5 className="text-muted">Or track your existing application</h5>
-                    <button className="btn btn-primary p-2.7 mt-5 fs-5" style={{width:"50%"}}>Get OTP</button>
-                    <p style={{fontSize:"14px"}} className="mt-3 text-muted">By proceeding, you agree to the Zerodha <a href="">terms</a> & <a href="">privacy policy</a></p>
-                    <p style={{fontSize:"14px"}}>Looking to open NRI account? <a href="">Click here</a></p>
+
+                    <div className="mt-4">
+                        <div className="input-group">
+                            <span className="input-group-text">🇮🇳 +91</span>
+                            <input
+                                type="tel"
+                                className="form-control"
+                                placeholder="Enter your mobile number"
+                            />
+                        </div>
+                    </div>
+
+                    <button className="btn btn-primary p-2.7 mt-4 fs-5" style={{ width: "50%" }}>Get OTP</button>
+                    <p style={{ fontSize: "14px" }} className="mt-3 text-muted">By proceeding, you agree to the Zerodha <a href="#">terms</a> & <a href="#">privacy policy</a></p>
+                    <p style={{ fontSize: "14px" }}>Looking to open NRI account? <a href="#">Click here</a></p>
                 </div>
             </div>
 
