@@ -1,6 +1,11 @@
 import React from 'react';
 
 function Signup() {
+
+    const handleSignupRedirect = () => {
+        window.location.href = "https://auth-mern-frontend-zerodhalogin.vercel.app/signup";
+    };
+
     return (
         <div>
             <div className='container p-5'>
@@ -13,11 +18,15 @@ function Signup() {
             <div className="row">
                 <div className="col-1"></div>
                 <div className="col-6 p-5">
-                    <img src="media/signup.png" />
+                    <img src="media/signup.png" alt="signup" />
                 </div>
                 <div className="col-5 p-5">
-                    <h3>Signup now</h3>
-                    <h5 className="text-muted">Or track your existing application</h5>
+
+                    <button className='p-2 btn btn-primary fs-5'
+                        style={{ width: "50%", margin: "0 auto" }}
+                        onClick={handleSignupRedirect}>Signup Now</button>
+
+                    <h6 className="text-muted">Or track your existing application</h6>
 
                     <div className="mt-4">
                         <div className="input-group">

@@ -1,6 +1,11 @@
 import React from 'react';
 
 function Universe() {
+
+    const handleSignupRedirect = () => {
+        window.location.href = "https://auth-mern-frontend-zerodhalogin.vercel.app/signup";
+    };
+
     return (
         <div className='container mt-5'>
             <h3 className=' text-center mb-3 '>The Zerodha Universe</h3>
@@ -31,7 +36,9 @@ function Universe() {
             </div>
 
             <div className='row text-center'>
-                <button className='p-2 btn btn-primary fs-5' style={{ width: "20%", margin: "0 auto" }}>Signup for free</button>
+                <button className='p-2 btn btn-primary fs-5'
+                    style={{ width: "20%", margin: "0 auto" }}
+                    onClick={handleSignupRedirect}>Signup for free</button>
             </div>
 
         </div>
